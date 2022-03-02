@@ -1,0 +1,4141 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, Arial, sans-serif, 'Segoe UI', 'Open Sans', 'Helvetica Neue', 'Roboto', 'Poppins';
+}
+
+#home-page {
+    position: relative;
+    width: 1440px;
+    height: 6150px;
+    background: #FBFBFB;
+}
+
+#home {
+    position: absolute;
+    width: 1440px;
+    height: 732px;
+    left: 0px;
+    top: 0px;
+}
+
+.nav-bar {
+    position: absolute;
+    width: 1440px;
+    height: 78px;
+}
+
+.logo {
+    position: absolute;
+    width: 148px;
+    height: 38px;
+    top: 20px;
+    left: 40px;
+    box-sizing: border-box;
+}
+
+.logo img {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    top: 0px;
+    left: 1px;
+}
+
+.logo p {
+    position: absolute;
+    width: 98px;
+    height: 27px;
+    top: -14px;
+    left: 45px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: black;
+}
+
+.right {
+    position: absolute;
+    width: 275px;
+    height: 32px;
+    top: 23px;
+    left: 1146px;
+}
+
+.notifi {
+    position: absolute;
+    width: 19px;
+    height: 20px;
+    left: 33%;
+    right: 13.68%;
+    top: 20.18%;
+    bottom: 37.18%;
+}
+
+#rec {
+    width: 1px;
+    height: 32px;
+    position: absolute;
+    left: 46.36%;
+    right: 12.57%;
+    top: 1.49%;
+    bottom: 29.49%;
+    background: #7a7a7c;
+}
+
+.profile {
+    position: absolute;
+    width: 121px;
+    height: 32px;
+    left: 52.82%;
+    right: 2.78%;
+    top: 1.49%;
+    bottom: 29.49%;
+}
+
+.profile img {
+    position: absolute;
+    left: -1.18%;
+    right: 8.96%;
+    top: 1.49%;
+    bottom: 29.49%;
+    width: 32px;
+    height: 32px;
+    background: url(.jpg);
+    border-radius: 19px;
+}
+
+.user {
+    position: absolute;
+    width: 79px;
+    height: 16px;
+    top: 10px;
+    left: 51px;
+    border-radius: 0.5px;
+}
+
+.user p {
+    position: absolute;
+    width: 52px;
+    height: 16px;
+    top: -14px;
+    left: -7px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.profile .icon-drop {
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    top: -7px;
+    left: 107px;
+}
+
+.language {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 29px;
+    left: -20px;
+}
+
+.language p {
+    position: absolute;
+    width: 27px;
+    height: 20px;
+    top: -34px;
+    left: 19px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #84878B;
+}
+
+.language img {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: -26px;
+    left: 65px;
+}
+
+.heading-text {
+    position: absolute;
+    width: 487px;
+    height: 240px;
+    left: 9.38%;
+    right: 56.81%;
+    top: 29.92%;
+    bottom: 37.3%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: -0.005em;
+    color: rgb(218, 208, 208);
+    text-shadow: 0px 8px 16px rgba(51, 51, 51, 0.08);
+}
+
+.image-background {
+    position: absolute;
+    width: 1439px;
+    height: 655px;
+    left: 0%;
+    right: 0.01%;
+    top: 10%;
+    bottom: 10.4%;
+}
+
+.image-background img {
+    position: absolute;
+    width: 1439px;
+    height: 655px;
+    left: 0%;
+    right: 0.01%;
+    top: 1%;
+    bottom: 10.4%;
+}
+
+
+/*-------------------------------- main search bar ---------------------------*/
+
+#main-search {
+    position: absolute;
+    width: 1170px;
+    height: 205px;
+    top: 636px;
+    left: 135px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 60px rgba(89, 89, 89, 0.1);
+    border-radius: 20px;
+}
+
+.content {
+    position: absolute;
+    width: 1050px;
+    height: 144px;
+    top: 31px;
+    left: 60px;
+}
+
+.passenger {
+    position: absolute;
+    width: 119px;
+    height: 23px;
+    top: 0px;
+    left: 785px;
+}
+
+.passenger p {
+    position: absolute;
+    width: 99px;
+    height: 23px;
+    left: 4px;
+    top: -19px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3B3E44;
+}
+
+.passenger .icon-pass {
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    top: -16px;
+    left: 105px;
+}
+
+.round-trip {
+    position: absolute;
+    width: 109px;
+    height: 23px;
+    left: 651px;
+    top: 0px;
+}
+
+.round-trip p {
+    position: absolute;
+    width: 89px;
+    height: 23px;
+    left: 4px;
+    top: -18px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3B3E44;
+}
+
+.round-trip .icon-trip {
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    top: -16px;
+    left: 95px;
+}
+
+.location {
+    position: absolute;
+    width: 320 px;
+    height: 70px;
+    left: 5.13%;
+    right: 64.87%;
+    top: 51.22%;
+    bottom: 14.63%;
+    background: #F4F5F7;
+    opacity: 0.8;
+    border: 1px solid #E7E8EA;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.key-one {
+    position: absolute;
+    height: 23px;
+    top: -15px;
+    left: 25px;
+    width: 74px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3B3E44;
+}
+
+.location input {
+    position: absolute;
+    height: 23px;
+    top: 40px;
+    left: 22px;
+    width: 224px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3B3E44;
+    border: none;
+    background: #F4F5F7;
+}
+
+.key-two {
+    position: absolute;
+    width: 155px;
+    height: 19px;
+    top: 12px;
+    left: 25px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B1B5C4;
+}
+
+.icon-locacheck {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 84px;
+    left: 367px;
+}
+
+.check-in {
+    position: absolute;
+    width: 260px;
+    height: 70px;
+    left: 36.19%;
+    right: 42.56%;
+    top: 51.22%;
+    bottom: 14.63%;
+    background: #F4F5F7;
+    opacity: 0.8;
+    border: 1px solid #E7E8EA;
+    border-radius: 8px;
+}
+
+.key-three {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    top: -15px;
+    left: 25px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3B3E44;
+}
+
+.key-four {
+    position: absolute;
+    width: 70px;
+    height: 24px;
+    top: 12px;
+    left: 25px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B1B5C4;
+}
+
+.check-in input {
+    position: absolute;
+    height: 23px;
+    top: 40px;
+    left: 22px;
+    width: 224px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3B3E44;
+    border: none;
+    background: #F4F5F7;
+}
+
+.check-out {
+    position: absolute;
+    width: 260px;
+    height: 70px;
+    left: 62.24%;
+    right: 22.39%;
+    top: 51.22%;
+    bottom: 14.63%;
+    background: #F4F5F7;
+    opacity: 0.8;
+    border: 1px solid #E7E8EA;
+    border-radius: 8px;
+}
+
+.key-five {
+    position: absolute;
+    width: 86px;
+    height: 23px;
+    top: -15px;
+    left: 25px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3B3E44;
+}
+
+.key-six {
+    position: absolute;
+    width: 70px;
+    height: 24px;
+    top: 12px;
+    left: 25px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B1B5C4;
+}
+
+.icon-locacheckout {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 84px;
+    left: 640px;
+}
+
+.check-out input {
+    position: absolute;
+    height: 23px;
+    top: 40px;
+    left: 22px;
+    width: 224px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3B3E44;
+    border: none;
+    background: #F4F5F7;
+}
+
+.btn-search {
+    position: absolute;
+    width: 152px;
+    height: 70px;
+    left: 935px;
+    top: 75px;
+    background: #3B71FE;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.top {
+    position: absolute;
+    width: 293px;
+    height: 20px;
+    top: 0px;
+    left: 60px;
+}
+
+.item-hotel {
+    position: absolute;
+    width: 64px;
+    height: 18px;
+    top: 1px;
+    left: 1px;
+}
+
+.heading-hotel {
+    position: absolute;
+    width: 36px;
+    height: 18px;
+    top: -6px;
+    left: 30px;
+    font-size: 14px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    color: #3B3E44;
+}
+
+.icon-hotel {
+    position: absolute;
+    width: 20px;
+    height: 16px;
+    top: -14px;
+    left: 4px;
+}
+
+.item-flight {
+    position: absolute;
+    width: 66px;
+    height: 20px;
+    top: 0px;
+    left: 110px;
+    color: #84878B;
+}
+
+.heading-flight {
+    position: absolute;
+    width: 38px;
+    height: 18px;
+    top: -6px;
+    left: 30px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #84878B;
+}
+
+.icon-flight {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    left: 4px;
+}
+
+.item-car {
+    position: absolute;
+    width: 99px;
+    height: 20px;
+    top: 0px;
+    left: 194px;
+    color: #84878B;
+    ;
+}
+
+.icon-car {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -14px;
+    left: 7px;
+}
+
+.heading-car {
+    position: absolute;
+    width: 71px;
+    height: 18px;
+    top: -6px;
+    left: 30px;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #84878B;
+}
+
+#line {
+    position: absolute;
+    width: 848px;
+    height: 1px;
+    top: 46px;
+    left: 60px;
+    background-color: #e7ecf3;
+}
+
+.rec-content {
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    top: 0px;
+    left: 0px;
+    background: #3B71FE;
+}
+
+
+/*---------------------------------------------------Search a best place------------------------------------------------*/
+
+#search-best {
+    position: absolute;
+    width: 1170px;
+    height: 664px;
+    top: 913px;
+    left: 133px;
+}
+
+.title {
+    position: absolute;
+    width: 734px;
+    height: 130px;
+    top: 24px;
+    left: 231px;
+}
+
+.heading-title {
+    position: absolute;
+    width: 734px;
+    height: 70px;
+    top: -38px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'DM Sans';
+    line-height: 70px;
+    letter-spacing: -0.005em;
+    color: #23262f;
+    text-align: center;
+}
+
+.heading-title-three {
+    position: absolute;
+    width: 593px;
+    height: 48px;
+    top: 63px;
+    left: 75px;
+    font-style: normal;
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.cards {
+    position: absolute;
+    width: 1170px;
+    height: 434px;
+    left: 0%;
+    right: 0%;
+    top: 32.98%;
+    bottom: 1.66%;
+}
+
+.card-one {
+    position: absolute;
+    width: 270px;
+    height: 202px;
+    left: 0%;
+    right: 76.92%;
+    top: -0.02%;
+    bottom: 36.6%;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card-two {
+    position: absolute;
+    width: 270px;
+    height: 202px;
+    left: 25.64%;
+    right: 51.28%;
+    top: -0.02%;
+    bottom: 36.6%;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 51px rgba(96, 96, 96, 0.1);
+    border-radius: 10px;
+}
+
+.card-three {
+    position: absolute;
+    width: 270px;
+    height: 202px;
+    left: 51.28%;
+    right: 25.64%;
+    top: -0.02%;
+    bottom: 36.6%;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card-four {
+    position: absolute;
+    width: 270px;
+    height: 202px;
+    left: 76.92%;
+    right: 0%;
+    top: -0.02%;
+    bottom: 36.6%;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card-five {
+    position: absolute;
+    width: 270px;
+    height: 202px;
+    left: 0%;
+    right: 76.92%;
+    top: 52.92%;
+    bottom: 1.66%;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card-six {
+    position: absolute;
+    width: 270px;
+    height: 202px;
+    left: 25.64%;
+    right: 51.28%;
+    top: 52.92%;
+    bottom: 1.66%;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card-seven {
+    position: absolute;
+    width: 270px;
+    height: 202px;
+    left: 51.28%;
+    right: 25.64%;
+    top: 52.92%;
+    bottom: 1.66%;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card-eight {
+    position: absolute;
+    width: 270px;
+    height: 202px;
+    left: 76.92%;
+    right: 0%;
+    top: 52.92%;
+    bottom: 1.66%;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card-one img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 10%;
+    right: 91.45%;
+    top: 15%;
+    bottom: 51.96%;
+    border-radius: 10px;
+}
+
+.card-one h4 {
+    position: absolute;
+    width: 145px;
+    height: 26px;
+    left: 9.56%;
+    right: 85.04%;
+    top: 50.75%;
+    bottom: 45.33%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.card-one p {
+    position: absolute;
+    width: 105px;
+    height: 21px;
+    left: 9.56%;
+    right: 88.46%;
+    top: 75%;
+    bottom: 40.36%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.card-two img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 10%;
+    right: 91.45%;
+    top: 15%;
+    bottom: 51.96%;
+    border-radius: 10px;
+}
+
+.card-two h4 {
+    position: absolute;
+    width: 145px;
+    height: 26px;
+    left: 9.56%;
+    right: 85.04%;
+    top: 50.75%;
+    bottom: 45.33%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.card-two p {
+    position: absolute;
+    width: 105px;
+    height: 21px;
+    left: 9.56%;
+    right: 88.46%;
+    top: 75%;
+    bottom: 40.36%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.card-two h5 {
+    position: absolute;
+    width: 49px;
+    height: 14px;
+    top: 10px;
+    left: 200px;
+    border-radius: 10px;
+    background: orangered;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card-three img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 10%;
+    right: 91.45%;
+    top: 15%;
+    bottom: 51.96%;
+    border-radius: 10px;
+}
+
+.card-three h4 {
+    position: absolute;
+    width: 200px;
+    height: 26px;
+    left: 9.56%;
+    right: 85.04%;
+    top: 50.75%;
+    bottom: 45.33%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.card-three p {
+    position: absolute;
+    width: 105px;
+    height: 21px;
+    left: 9.56%;
+    right: 88.46%;
+    top: 75%;
+    bottom: 40.36%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.card-four img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 10%;
+    right: 91.45%;
+    top: 15%;
+    bottom: 51.96%;
+    border-radius: 10px;
+}
+
+.card-four h4 {
+    position: absolute;
+    width: 200px;
+    height: 26px;
+    left: 9.56%;
+    right: 85.04%;
+    top: 50.75%;
+    bottom: 45.33%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.card-four p {
+    position: absolute;
+    width: 110px;
+    height: 21px;
+    left: 9.56%;
+    right: 88.46%;
+    top: 75%;
+    bottom: 40.36%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.card-five img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 10%;
+    right: 91.45%;
+    top: 15%;
+    bottom: 51.96%;
+    border-radius: 10px;
+}
+
+.card-five h4 {
+    position: absolute;
+    width: 200px;
+    height: 26px;
+    left: 9.56%;
+    right: 85.04%;
+    top: 50.75%;
+    bottom: 45.33%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.card-five p {
+    position: absolute;
+    width: 105px;
+    height: 21px;
+    left: 9.56%;
+    right: 88.46%;
+    top: 75%;
+    bottom: 40.36%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.card-six img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 10%;
+    right: 91.45%;
+    top: 15%;
+    bottom: 51.96%;
+    border-radius: 10px;
+}
+
+.card-six h4 {
+    position: absolute;
+    width: 200px;
+    height: 26px;
+    left: 9.56%;
+    right: 85.04%;
+    top: 50.75%;
+    bottom: 45.33%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.card-six p {
+    position: absolute;
+    width: 105px;
+    height: 21px;
+    left: 9.56%;
+    right: 88.46%;
+    top: 75%;
+    bottom: 40.36%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.card-seven img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 10%;
+    right: 91.45%;
+    top: 15%;
+    bottom: 51.96%;
+    border-radius: 10px;
+}
+
+.card-seven h4 {
+    position: absolute;
+    width: 200px;
+    height: 26px;
+    left: 9.56%;
+    right: 85.04%;
+    top: 50.75%;
+    bottom: 45.33%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.card-seven p {
+    position: absolute;
+    width: 105px;
+    height: 21px;
+    left: 9.56%;
+    right: 88.46%;
+    top: 75%;
+    bottom: 40.36%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.card-eight img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 10%;
+    right: 91.45%;
+    top: 15%;
+    bottom: 51.96%;
+    border-radius: 10px;
+}
+
+.card-eight h4 {
+    position: absolute;
+    width: 200px;
+    height: 26px;
+    left: 9.56%;
+    right: 85.04%;
+    top: 50.75%;
+    bottom: 45.33%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.card-eight p {
+    position: absolute;
+    width: 110px;
+    height: 21px;
+    left: 9.56%;
+    right: 88.46%;
+    top: 75%;
+    bottom: 40.36%;
+    font-style: normal;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+
+/*--------------------------------------featured Destination-----------------------------------*/
+
+#featured {
+    position: absolute;
+    width: 1170px;
+    height: 862px;
+    top: 1640px;
+    left: 135px;
+}
+
+.heading-fea {
+    position: absolute;
+    width: 510px;
+    height: 106px;
+    top: 0px;
+    left: 0px;
+}
+
+.heading-fea h1 {
+    position: absolute;
+    width: 510px;
+    height: 70px;
+    top: -18px;
+    left: 0px;
+    font-size: 48px;
+    font-family: 'DM Sans';
+}
+
+.heading-fea p {
+    position: absolute;
+    width: 425px;
+    height: 24px;
+    top: 70px;
+    left: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3B3E44;
+    font-family: 'Poppins';
+}
+
+.pic-one {
+    position: absolute;
+    width: 870px;
+    height: 280px;
+    left: 0px;
+    top: 144px;
+}
+
+.pic-one img {
+    position: absolute;
+    width: 870px;
+    height: 280px;
+    left: 0%;
+    right: 25.64%;
+    top: -0.29%;
+    bottom: 50.81%;
+    background: #413939;
+    border-radius: 19px;
+}
+
+.pic-one h5 {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 40px;
+    top: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FF543D;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(40, 40, 40, 0.12);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.pic-one h2 {
+    position: absolute;
+    width: 288px;
+    height: 24px;
+    left: 4.56%;
+    right: 72.82%;
+    top: 38.98%;
+    bottom: 58.24%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.avatar-pro {
+    position: absolute;
+    width: 163px;
+    height: 30px;
+    left: 4.56%;
+    right: 94.99%;
+    top: 70.17%;
+    bottom: 52.52%;
+}
+
+.avatar-pro img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 2.56%;
+    right: 94.99%;
+    top: 0.17%;
+    bottom: 52.52%;
+}
+
+.avatar-pro p {
+    position: absolute;
+    width: 123px;
+    height: 30px;
+    left: 29%;
+    right: 83.52%;
+    top: -65.92%;
+    bottom: 52.44%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.pic-two {
+    position: absolute;
+    width: 408px;
+    height: 408px;
+    left: 0px;
+    top: 454px;
+}
+
+.pic-two img {
+    position: absolute;
+    width: 408px;
+    height: 408px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(357.11deg, rgba(30, 30, 30, 0.67) 11.64%, rgba(66, 66, 66, 0) 23.22%);
+    border-radius: 20px;
+}
+
+.pic-two h5 {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 40px;
+    top: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FF543D;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(40, 40, 40, 0.12);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.pic-two h2 {
+    position: absolute;
+    width: 244px;
+    height: 24px;
+    left: 10%;
+    right: 72.82%;
+    top: 71.98%;
+    bottom: 58.24%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.avatar-pro-two {
+    position: absolute;
+    width: 163px;
+    height: 30px;
+    left: 8.56%;
+    right: 94.99%;
+    top: 87.17%;
+    bottom: 52.52%
+}
+
+.avatar-pro-two img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1.56%;
+    right: 94.99%;
+    top: -0.83%;
+    bottom: 52.52%;
+}
+
+.avatar-pro-two p {
+    position: absolute;
+    width: 123px;
+    height: 30px;
+    left: 28%;
+    right: 83.52%;
+    top: -65.92%;
+    bottom: 52.44%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.pic-three {
+    position: absolute;
+    width: 408px;
+    height: 408px;
+    left: 462px;
+    top: 454px;
+}
+
+.pic-three img {
+    position: absolute;
+    width: 408px;
+    height: 408px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(357.11deg, rgba(30, 30, 30, 0.67) 11.64%, rgba(66, 66, 66, 0) 23.22%);
+    border-radius: 20px;
+}
+
+.pic-three h5 {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 40px;
+    top: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FF543D;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(40, 40, 40, 0.12);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.pic-three h2 {
+    position: absolute;
+    width: 244px;
+    height: 24px;
+    left: 10%;
+    right: 72.82%;
+    top: 71.98%;
+    bottom: 58.24%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.avatar-pro-three {
+    position: absolute;
+    width: 163px;
+    height: 30px;
+    left: 8.56%;
+    right: 94.99%;
+    top: 87.17%;
+    bottom: 52.52%
+}
+
+.avatar-pro-three img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1.56%;
+    right: 94.99%;
+    top: -0.83%;
+    bottom: 52.52%;
+}
+
+.avatar-pro-three p {
+    position: absolute;
+    width: 123px;
+    height: 30px;
+    left: 28%;
+    right: 83.52%;
+    top: -65.92%;
+    bottom: 52.44%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.pic-four {
+    position: absolute;
+    width: 270px;
+    height: 220px;
+    left: 900px;
+    top: 144px;
+}
+
+.pic-four img {
+    position: absolute;
+    width: 270px;
+    height: 220px;
+    left: -0.08%;
+    right: 0%;
+    top: -0.29%;
+    bottom: 57.77%;
+    background: linear-gradient(357.11deg, rgba(30, 30, 30, 0.67) 11.64%, rgba(66, 66, 66, 0) 23.22%);
+    border-radius: 20px;
+}
+
+.pic-four h5 {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 40px;
+    top: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FF543D;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(40, 40, 40, 0.12);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.avatar-pro-four {
+    position: absolute;
+    width: 120px;
+    height: 41px;
+    left: 15.63%;
+    right: 11.11%;
+    top: 77.08%;
+    bottom: 59.16%;
+}
+
+.avatar-pro-four h2 {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 5.63%;
+    right: 11.11%;
+    top: -40%;
+    bottom: 61.6%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.avatar-pro-four img {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 5.56%;
+    right: 94.99%;
+    top: 53.17%;
+    bottom: 52.52%;
+}
+
+.avatar-pro-four p {
+    position: absolute;
+    left: 25.43%;
+    right: 14.27%;
+    top: 25.1%;
+    bottom: 59.16%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.pic-five {
+    position: absolute;
+    width: 270px;
+    height: 220px;
+    left: 900px;
+    top: 394px;
+}
+
+.pic-five img {
+    position: absolute;
+    width: 270px;
+    height: 220px;
+    left: -0.08%;
+    right: 0%;
+    top: -0.29%;
+    bottom: 57.77%;
+    background: linear-gradient(357.11deg, rgba(30, 30, 30, 0.67) 11.64%, rgba(66, 66, 66, 0) 23.22%);
+    border-radius: 20px;
+}
+
+.pic-five h5 {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 40px;
+    top: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FF543D;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(40, 40, 40, 0.12);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.avatar-pro-five {
+    position: absolute;
+    width: 120px;
+    height: 41px;
+    left: 15.63%;
+    right: 11.11%;
+    top: 77.08%;
+    bottom: 59.16%;
+}
+
+.avatar-pro-five h2 {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 5.63%;
+    right: 11.11%;
+    top: -40%;
+    bottom: 61.6%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.avatar-pro-five img {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 5.56%;
+    right: 94.99%;
+    top: 53.17%;
+    bottom: 52.52%;
+}
+
+.avatar-pro-five p {
+    position: absolute;
+    left: 25.43%;
+    right: 14.27%;
+    top: 25.1%;
+    bottom: 59.16%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.pic-six {
+    position: absolute;
+    width: 270px;
+    height: 220px;
+    left: 900px;
+    top: 642px;
+}
+
+.pic-six img {
+    position: absolute;
+    width: 270px;
+    height: 220px;
+    left: -0.08%;
+    right: 0%;
+    top: -0.29%;
+    bottom: 57.77%;
+    background: linear-gradient(357.11deg, rgba(30, 30, 30, 0.67) 11.64%, rgba(66, 66, 66, 0) 23.22%);
+    border-radius: 20px;
+}
+
+.pic-six h5 {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 40px;
+    top: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FF543D;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(40, 40, 40, 0.12);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.avatar-pro-six {
+    position: absolute;
+    width: 120px;
+    height: 41px;
+    left: 15.63%;
+    right: 11.11%;
+    top: 77.08%;
+    bottom: 59.16%;
+}
+
+.avatar-pro-six h2 {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 5.63%;
+    right: 11.11%;
+    top: -40%;
+    bottom: 61.6%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.avatar-pro-six img {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 5.56%;
+    right: 94.99%;
+    top: 53.17%;
+    bottom: 52.52%;
+}
+
+.avatar-pro-six p {
+    position: absolute;
+    left: 25.43%;
+    right: 14.27%;
+    top: 25.1%;
+    bottom: 59.16%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+
+/*--------------------------------------Top Tour-----------------------------------*/
+
+#top-tour {
+    position: absolute;
+    width: 1170px;
+    height: 663px;
+    left: 135px;
+    top: 2600px;
+}
+
+.title-tour {
+    position: absolute;
+    width: 196px;
+    height: 106px;
+    left: 0.43%;
+    right: 82.82%;
+    top: 0%;
+    bottom: 84.01%;
+}
+
+.title-tour h1 {
+    position: absolute;
+    width: 196px;
+    height: 70px;
+    left: 0.43%;
+    right: 82.82%;
+    top: -45%;
+    bottom: 89.44%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: -0.005em;
+    color: #141416;
+}
+
+.title-tour p {
+    position: absolute;
+    width: 180px;
+    height: 24px;
+    left: 0.43%;
+    right: 84.53%;
+    top: 64.37%;
+    bottom: 84.01%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777E90;
+}
+
+.arrow-top {
+    position: absolute;
+    width: 82px;
+    height: 36px;
+    top: 41px;
+    left: 1088px;
+}
+
+.arrow-top .next {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: -5px;
+    left: 45px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.arrow-top .back {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: -5px;
+    left: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card-top-tour {
+    position: absolute;
+    width: 1169px;
+    height: 495px;
+    left: 0%;
+    right: 0.09%;
+    top: 25.19%;
+    bottom: 0.15%;
+}
+
+.card-top-one {
+    position: absolute;
+    width: 369px;
+    height: 495px;
+    left: 0%;
+    right: 68.46%;
+    top: 0%;
+    bottom: 0.15%;
+}
+
+.card-top-one img {
+    position: absolute;
+    width: 369px;
+    height: 495px;
+    left: 0%;
+    right: 68.46%;
+    top: 0%;
+    bottom: 0.15%;
+    background: #C4C4C4;
+    border-radius: 16px;
+}
+
+.heading-tour {
+    position: absolute;
+    width: 114px;
+    height: 50px;
+    left: 10%;
+    right: 87.27%;
+    top: 8%;
+    bottom: 62.75%;
+    background: rgba(20, 20, 22, 0.2);
+    backdrop-filter: blur(4px);
+    border-radius: 50px;
+}
+
+.card-top-one h2 {
+    position: absolute;
+    width: 100px;
+    height: 44px;
+    left: 12%;
+    right: 88.46%;
+    top: 70%;
+    bottom: 10.11%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: -0.005em;
+    color: #FCFCFD;
+    text-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.heading-tour h3 {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    left: 25%;
+    right: 89.57%;
+    top: -15%;
+    bottom: 64.56%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E9EBF3;
+}
+
+.card-top-one p {
+    position: absolute;
+    width: 147px;
+    height: 24px;
+    left: 12%;
+    right: 85.3%;
+    top: 82%;
+    bottom: 5.28%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFD;
+    opacity: 0.9;
+}
+
+.card-top-two {
+    position: absolute;
+    width: 370px;
+    height: 495px;
+    left: 34.1%;
+    right: 34.27%;
+    top: 0%;
+    bottom: 0.15%;
+}
+
+.card-top-two img {
+    position: absolute;
+    width: 369px;
+    height: 495px;
+    left: 0%;
+    right: 68.46%;
+    top: 0%;
+    bottom: 0.15%;
+    background: #C4C4C4;
+    border-radius: 16px;
+}
+
+.heading-tour-two {
+    position: absolute;
+    width: 114px;
+    height: 50px;
+    left: 10%;
+    right: 87.27%;
+    top: 8%;
+    bottom: 62.75%;
+    background: rgba(20, 20, 22, 0.2);
+    backdrop-filter: blur(4px);
+    border-radius: 50px;
+}
+
+.card-top-two h2 {
+    position: absolute;
+    width: 100px;
+    height: 44px;
+    left: 12%;
+    right: 88.46%;
+    top: 70%;
+    bottom: 10.11%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: -0.005em;
+    color: #FCFCFD;
+    text-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.heading-tour-two h3 {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    left: 12%;
+    right: 89.57%;
+    top: -15%;
+    bottom: 64.56%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E9EBF3;
+}
+
+.card-top-two p {
+    position: absolute;
+    width: 147px;
+    height: 24px;
+    left: 12%;
+    right: 85.3%;
+    top: 82%;
+    bottom: 5.28%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFD;
+    opacity: 0.9;
+}
+
+.card-top-three {
+    position: absolute;
+    width: 370px;
+    height: 495px;
+    left: 68.29%;
+    right: 0.09%;
+    top: 0%;
+    bottom: 0.15%;
+}
+
+.card-top-three img {
+    position: absolute;
+    width: 369px;
+    height: 495px;
+    left: 0%;
+    right: 68.46%;
+    top: 0%;
+    bottom: 0.15%;
+    background: #C4C4C4;
+    border-radius: 16px;
+}
+
+.heading-tour-three {
+    position: absolute;
+    width: 114px;
+    height: 50px;
+    left: 10%;
+    right: 87.27%;
+    top: 8%;
+    bottom: 62.75%;
+    background: rgba(20, 20, 22, 0.2);
+    backdrop-filter: blur(4px);
+    border-radius: 50px;
+}
+
+.card-top-three h2 {
+    position: absolute;
+    width: 100px;
+    height: 44px;
+    left: 12%;
+    right: 88.46%;
+    top: 70%;
+    bottom: 10.11%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: -0.005em;
+    color: #FCFCFD;
+    text-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.heading-tour-three h3 {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    left: 12%;
+    right: 89.57%;
+    top: -15%;
+    bottom: 64.56%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E9EBF3;
+}
+
+.card-top-three p {
+    position: absolute;
+    width: 147px;
+    height: 24px;
+    left: 12%;
+    right: 85.3%;
+    top: 82%;
+    bottom: 5.28%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFD;
+    opacity: 0.9;
+}
+
+
+/*--------------------------------------Explore word-----------------------------------*/
+
+#explore {
+    position: absolute;
+    width: 1170px;
+    height: 517px;
+    left: 135px;
+    top: 3340px;
+}
+
+.heading-explore {
+    position: absolute;
+    width: 1170px;
+    height: 106px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 79.5%;
+}
+
+.heading-title-ex {
+    position: absolute;
+    width: 418px;
+    height: 106px;
+    left: 0%;
+    right: 64.27%;
+    top: 0%;
+    bottom: 79.5%;
+}
+
+.heading-title-ex h1 {
+    position: absolute;
+    width: 418px;
+    height: 70px;
+    left: 0%;
+    right: 64.27%;
+    top: -30%;
+    bottom: 86.46%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #141416;
+}
+
+.heading-title-ex p {
+    position: absolute;
+    width: 230px;
+    height: 24px;
+    position: absolute;
+    left: 1%;
+    right: 80.68%;
+    top: 64%;
+    bottom: 79.5%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.arrow-ex {
+    position: absolute;
+    width: 82px;
+    height: 36px;
+    top: 34px;
+    left: 1088px;
+}
+
+.arrow-ex .next {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: -5px;
+    left: 45px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.arrow-ex .back {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: -5px;
+    left: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.ex-one {
+    position: absolute;
+    width: 270px;
+    height: 362px;
+    left: 0%;
+    right: 76.92%;
+    top: 29.98%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.ex-one img {
+    position: absolute;
+    width: 242px;
+    height: 152px;
+    left: 5.2%;
+    right: 78.12%;
+    top: 3%;
+    bottom: 37.91%;
+    background: url();
+    border-radius: 16px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.ex-rating {
+    position: absolute;
+    width: 81px;
+    height: 21px;
+    left: 5.2%;
+    right: 91.83%;
+    top: 51%;
+    bottom: 29.98%;
+}
+
+.ex-rating p {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 0%;
+    right: 97.61%;
+    top: -63%;
+    bottom: 30.66%;
+}
+
+.ex-rating .key-ex-one {
+    position: absolute;
+    width: 60px;
+    height: 21px;
+    left: 33%;
+    right: 91.83%;
+    top: -63%;
+    bottom: 29.98%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3B3E44;
+}
+
+.ex-one h3 {
+    position: absolute;
+    width: 147px;
+    height: 26px;
+    left: 5.2%;
+    right: 86.24%;
+    top: 55%;
+    bottom: 22.63%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.ex-one h5 {
+    position: absolute;
+    width: 144px;
+    height: 21px;
+    left: 5.2%;
+    right: 86.5%;
+    top: 65%;
+    bottom: 16.8%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.ex-one .total {
+    position: absolute;
+    width: 40px;
+    height: 23px;
+    left: 76%;
+    right: 78.97%;
+    top: 55%;
+    bottom: 22.63%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #316BFF;
+    background: rgba(49, 107, 255, 0.2);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.address {
+    position: absolute;
+    width: 158px;
+    height: 50px;
+    left: 5.2%;
+    right: 85.3%;
+    top: 82%;
+    bottom: 4.16%;
+}
+
+.address .add-key-one {
+    position: absolute;
+    width: 127px;
+    height: 21px;
+    left: 0%;
+    right: 87.95%;
+    top: -30%;
+    bottom: 9.77%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.address .add-key-two {
+    position: absolute;
+    width: 152px;
+    height: 21px;
+    left: 0%;
+    right: 87.95%;
+    top: 30%;
+    bottom: 9.77%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.ex-two {
+    position: absolute;
+    width: 270px;
+    height: 362px;
+    left: 25.64%;
+    right: 51.28%;
+    top: 29.98%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.ex-two img {
+    position: absolute;
+    width: 242px;
+    height: 152px;
+    left: 5.2%;
+    right: 78.12%;
+    top: 3%;
+    bottom: 37.91%;
+    background: url();
+    border-radius: 16px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.ex-rating {
+    position: absolute;
+    width: 81px;
+    height: 21px;
+    left: 5.2%;
+    right: 91.83%;
+    top: 51%;
+    bottom: 29.98%;
+}
+
+.ex-rating p {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 0%;
+    right: 97.61%;
+    top: -63%;
+    bottom: 30.66%;
+}
+
+.ex-rating .key-ex-one {
+    position: absolute;
+    width: 60px;
+    height: 21px;
+    left: 33%;
+    right: 91.83%;
+    top: -63%;
+    bottom: 29.98%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3B3E44;
+}
+
+.ex-two h3 {
+    position: absolute;
+    width: 147px;
+    height: 26px;
+    left: 5.2%;
+    right: 86.24%;
+    top: 55%;
+    bottom: 22.63%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.ex-two h5 {
+    position: absolute;
+    width: 144px;
+    height: 21px;
+    left: 5.2%;
+    right: 86.5%;
+    top: 65%;
+    bottom: 16.8%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.ex-two .total {
+    position: absolute;
+    width: 40px;
+    height: 23px;
+    left: 76%;
+    right: 78.97%;
+    top: 55%;
+    bottom: 22.63%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #316BFF;
+    background: rgba(49, 107, 255, 0.2);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.address {
+    position: absolute;
+    width: 158px;
+    height: 50px;
+    left: 5.2%;
+    right: 85.3%;
+    top: 82%;
+    bottom: 4.16%;
+}
+
+.address .add-key-one {
+    position: absolute;
+    width: 127px;
+    height: 21px;
+    left: 0%;
+    right: 87.95%;
+    top: -30%;
+    bottom: 9.77%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.address .add-key-two {
+    position: absolute;
+    width: 152px;
+    height: 21px;
+    left: 0%;
+    right: 87.95%;
+    top: 30%;
+    bottom: 9.77%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.ex-three {
+    position: absolute;
+    width: 270px;
+    height: 362px;
+    left: 51.28%;
+    right: 25.64%;
+    top: 29.98%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.ex-three img {
+    position: absolute;
+    width: 242px;
+    height: 152px;
+    left: 5.2%;
+    right: 78.12%;
+    top: 3%;
+    bottom: 37.91%;
+    background: url();
+    border-radius: 16px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.ex-rating {
+    position: absolute;
+    width: 81px;
+    height: 21px;
+    left: 5.2%;
+    right: 91.83%;
+    top: 51%;
+    bottom: 29.98%;
+}
+
+.ex-rating p {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 0%;
+    right: 97.61%;
+    top: -63%;
+    bottom: 30.66%;
+}
+
+.ex-rating .key-ex-one {
+    position: absolute;
+    width: 60px;
+    height: 21px;
+    left: 33%;
+    right: 91.83%;
+    top: -63%;
+    bottom: 29.98%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3B3E44;
+}
+
+.ex-three h3 {
+    position: absolute;
+    width: 147px;
+    height: 26px;
+    left: 5.2%;
+    right: 86.24%;
+    top: 55%;
+    bottom: 22.63%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.ex-three h5 {
+    position: absolute;
+    width: 144px;
+    height: 21px;
+    left: 5.2%;
+    right: 86.5%;
+    top: 65%;
+    bottom: 16.8%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.ex-three .total {
+    position: absolute;
+    width: 40px;
+    height: 23px;
+    left: 76%;
+    right: 78.97%;
+    top: 55%;
+    bottom: 22.63%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #316BFF;
+    background: rgba(49, 107, 255, 0.2);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.address {
+    position: absolute;
+    width: 158px;
+    height: 50px;
+    left: 5.2%;
+    right: 85.3%;
+    top: 82%;
+    bottom: 4.16%;
+}
+
+.address .add-key-one {
+    position: absolute;
+    width: 127px;
+    height: 21px;
+    left: 0%;
+    right: 87.95%;
+    top: -30%;
+    bottom: 9.77%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.address .add-key-two {
+    position: absolute;
+    width: 152px;
+    height: 21px;
+    left: 0%;
+    right: 87.95%;
+    top: 30%;
+    bottom: 9.77%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.ex-four {
+    position: absolute;
+    width: 270px;
+    left: 76.92%;
+    right: 0%;
+    top: 29.98%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.ex-four img {
+    position: absolute;
+    width: 242px;
+    height: 152px;
+    left: 5.2%;
+    right: 78.12%;
+    top: 3%;
+    bottom: 37.91%;
+    background: url();
+    border-radius: 16px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.ex-rating {
+    position: absolute;
+    width: 81px;
+    height: 21px;
+    left: 5.2%;
+    right: 91.83%;
+    top: 51%;
+    bottom: 29.98%;
+}
+
+.ex-rating p {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 0%;
+    right: 97.61%;
+    top: -63%;
+    bottom: 30.66%;
+}
+
+.ex-rating .key-ex-one {
+    position: absolute;
+    width: 60px;
+    height: 21px;
+    left: 33%;
+    right: 91.83%;
+    top: -63%;
+    bottom: 29.98%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3B3E44;
+}
+
+.ex-four h3 {
+    position: absolute;
+    width: 147px;
+    height: 26px;
+    left: 5.2%;
+    right: 86.24%;
+    top: 55%;
+    bottom: 22.63%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B3E44;
+}
+
+.ex-four h5 {
+    position: absolute;
+    width: 144px;
+    height: 21px;
+    left: 5.2%;
+    right: 86.5%;
+    top: 65%;
+    bottom: 16.8%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.ex-four .total {
+    position: absolute;
+    width: 40px;
+    height: 23px;
+    left: 76%;
+    right: 78.97%;
+    top: 55%;
+    bottom: 22.63%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #316BFF;
+    background: rgba(49, 107, 255, 0.2);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.address {
+    position: absolute;
+    width: 158px;
+    height: 50px;
+    left: 5.2%;
+    right: 85.3%;
+    top: 82%;
+    bottom: 4.16%;
+}
+
+.address .add-key-one {
+    position: absolute;
+    width: 127px;
+    height: 21px;
+    left: 0%;
+    right: 87.95%;
+    top: -30%;
+    bottom: 9.77%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+.address .add-key-two {
+    position: absolute;
+    width: 152px;
+    height: 21px;
+    left: 0%;
+    right: 87.95%;
+    top: 30%;
+    bottom: 9.77%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #84878B;
+}
+
+
+/*------------------------------------------------------Trending-------------------------------------*/
+
+#trending {
+    position: absolute;
+    width: 1440px;
+    height: 996px;
+    left: 0px;
+    top: 3930px;
+    background: #F5F5F5;
+}
+
+.card-trending {
+    position: absolute;
+    width: 1098px;
+    height: 878px;
+    left: 11.88%;
+    right: 11.88%;
+    top: 5.92%;
+    bottom: 5.92%;
+}
+
+.heading-trending {
+    position: absolute;
+    width: 465px;
+    height: 110px;
+    left: 325px;
+    top: 0px;
+}
+
+.heading-trending h1 {
+    position: absolute;
+    width: 327px;
+    height: 70px;
+    left: 14%;
+    right: 38.61%;
+    top: -44%;
+    bottom: 87.05%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #222529;
+}
+
+.heading-trending h3 {
+    position: absolute;
+    width: 465px;
+    height: 24px;
+    left: 0%;
+    right: 33.82%;
+    top: 37.56%;
+    bottom: 83.03%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #3B3E44;
+}
+
+.card-trend-one {
+    position: absolute;
+    width: 534px;
+    height: 216px;
+    left: 0%;
+    right: 51.04%;
+    top: 16%;
+    bottom: 56.33%;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.card-trend-one img {
+    position: absolute;
+    width: 160px;
+    height: 168px;
+    left: 5%;
+    right: 75.35%;
+    top: 10%;
+    bottom: 58.73%;
+    background: #F3EDED;
+    border-radius: 15px;
+}
+
+.heading-text-trend {
+    position: absolute;
+    width: 152px;
+    height: 112px;
+    left: 40%;
+    right: 62.71%;
+    top: 14%;
+    bottom: 64.36%;
+}
+
+.heading-text-trend h2 {
+    position: absolute;
+    width: 77px;
+    height: 36px;
+    left: 2%;
+    right: 67.92%;
+    top: -15%;
+    bottom: 71.99%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #282832;
+}
+
+.heading-text-trend p {
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 3.74%;
+    right: 67.11%;
+    top: 29.22%;
+    bottom: 68.37%;
+}
+
+.heading-text-trend .total-trend {
+    position: absolute;
+    width: 152px;
+    height: 18px;
+    left: 3.74%;
+    right: 62.71%;
+    top: 57.84%;
+    bottom: 64.36%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+    color: #3B3E44;
+}
+
+.btn-book {
+    position: absolute;
+    width: 99px;
+    height: 33px;
+    left: 3.74%;
+    right: 66.39%;
+    top: 108%;
+    bottom: 58.63%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #316BFF;
+    border-radius: 6px
+}
+
+.card-trend-two {
+    position: absolute;
+    width: 534px;
+    height: 216px;
+    left: 51.04%;
+    right: 11.88%;
+    top: 16%;
+    bottom: 56.33%;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.card-trend-two img {
+    position: absolute;
+    width: 160px;
+    height: 168px;
+    left: 5%;
+    right: 75.35%;
+    top: 10%;
+    bottom: 58.73%;
+    background: #F3EDED;
+    border-radius: 15px;
+}
+
+.heading-text-trend {
+    position: absolute;
+    width: 152px;
+    height: 112px;
+    left: 40%;
+    right: 62.71%;
+    top: 14%;
+    bottom: 64.36%;
+}
+
+.heading-text-trend h2 {
+    position: absolute;
+    width: 77px;
+    height: 36px;
+    left: 2%;
+    right: 67.92%;
+    top: -15%;
+    bottom: 71.99%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #282832;
+}
+
+.heading-text-trend p {
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 3.74%;
+    right: 67.11%;
+    top: 29.22%;
+    bottom: 68.37%;
+}
+
+.heading-text-trend .total-trend {
+    position: absolute;
+    width: 152px;
+    height: 18px;
+    left: 3.74%;
+    right: 62.71%;
+    top: 57.84%;
+    bottom: 64.36%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+    color: #3B3E44;
+}
+
+.btn-book {
+    position: absolute;
+    width: 99px;
+    height: 33px;
+    left: 3.74%;
+    right: 66.39%;
+    top: 108%;
+    bottom: 58.63%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #316BFF;
+    border-radius: 6px
+}
+
+.card-trend-three {
+    position: absolute;
+    width: 534px;
+    height: 216px;
+    left: 0%;
+    right: 51.04%;
+    top: 44%;
+    bottom: 31.12%;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.card-trend-three img {
+    position: absolute;
+    width: 160px;
+    height: 168px;
+    left: 5%;
+    right: 75.35%;
+    top: 10%;
+    bottom: 58.73%;
+    background: #F3EDED;
+    border-radius: 15px;
+}
+
+.heading-text-trend {
+    position: absolute;
+    width: 152px;
+    height: 112px;
+    left: 40%;
+    right: 62.71%;
+    top: 14%;
+    bottom: 64.36%;
+}
+
+.heading-text-trend h2 {
+    position: absolute;
+    width: 77px;
+    height: 36px;
+    left: 2%;
+    right: 67.92%;
+    top: -15%;
+    bottom: 71.99%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #282832;
+}
+
+.heading-text-trend p {
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 3.74%;
+    right: 67.11%;
+    top: 29.22%;
+    bottom: 68.37%;
+}
+
+.heading-text-trend .total-trend {
+    position: absolute;
+    width: 152px;
+    height: 18px;
+    left: 3.74%;
+    right: 62.71%;
+    top: 57.84%;
+    bottom: 64.36%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+    color: #3B3E44;
+}
+
+.btn-book {
+    position: absolute;
+    width: 99px;
+    height: 33px;
+    left: 3.74%;
+    right: 66.39%;
+    top: 108%;
+    bottom: 58.63%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #316BFF;
+    border-radius: 6px
+}
+
+.card-trend-four {
+    position: absolute;
+    width: 534px;
+    height: 216px;
+    left: 51.04%;
+    right: 11.88%;
+    top: 44%;
+    bottom: 31.12%;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.card-trend-four img {
+    position: absolute;
+    width: 160px;
+    height: 168px;
+    left: 5%;
+    right: 75.35%;
+    top: 10%;
+    bottom: 58.73%;
+    background: #F3EDED;
+    border-radius: 15px;
+}
+
+.heading-text-trend {
+    position: absolute;
+    width: 152px;
+    height: 112px;
+    left: 40%;
+    right: 62.71%;
+    top: 14%;
+    bottom: 64.36%;
+}
+
+.heading-text-trend h2 {
+    position: absolute;
+    width: 77px;
+    height: 36px;
+    left: 2%;
+    right: 67.92%;
+    top: -15%;
+    bottom: 71.99%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #282832;
+}
+
+.heading-text-trend p {
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 3.74%;
+    right: 67.11%;
+    top: 29.22%;
+    bottom: 68.37%;
+}
+
+.heading-text-trend .total-trend {
+    position: absolute;
+    width: 152px;
+    height: 18px;
+    left: 3.74%;
+    right: 62.71%;
+    top: 57.84%;
+    bottom: 64.36%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+    color: #3B3E44;
+}
+
+.btn-book {
+    position: absolute;
+    width: 99px;
+    height: 33px;
+    left: 3.74%;
+    right: 66.39%;
+    top: 108%;
+    bottom: 58.63%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #316BFF;
+    border-radius: 6px
+}
+
+.card-trend-five {
+    position: absolute;
+    width: 534px;
+    height: 216px;
+    left: 0%;
+    right: 51.04%;
+    top: 72%;
+    bottom: 5.92%;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.card-trend-five img {
+    position: absolute;
+    width: 160px;
+    height: 168px;
+    left: 5%;
+    right: 75.35%;
+    top: 10%;
+    bottom: 58.73%;
+    background: #F3EDED;
+    border-radius: 15px;
+}
+
+.heading-text-trend {
+    position: absolute;
+    width: 152px;
+    height: 112px;
+    left: 40%;
+    right: 62.71%;
+    top: 14%;
+    bottom: 64.36%;
+}
+
+.heading-text-trend h2 {
+    position: absolute;
+    width: 77px;
+    height: 36px;
+    left: 2%;
+    right: 67.92%;
+    top: -15%;
+    bottom: 71.99%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #282832;
+}
+
+.heading-text-trend p {
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 3.74%;
+    right: 67.11%;
+    top: 29.22%;
+    bottom: 68.37%;
+}
+
+.heading-text-trend .total-trend {
+    position: absolute;
+    width: 152px;
+    height: 18px;
+    left: 3.74%;
+    right: 62.71%;
+    top: 57.84%;
+    bottom: 64.36%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+    color: #3B3E44;
+}
+
+.btn-book {
+    position: absolute;
+    width: 99px;
+    height: 33px;
+    left: 3.74%;
+    right: 66.39%;
+    top: 108%;
+    bottom: 58.63%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #316BFF;
+    border-radius: 6px
+}
+
+.card-trend-six {
+    position: absolute;
+    width: 534px;
+    height: 216px;
+    left: 51.04%;
+    right: 11.88%;
+    top: 72%;
+    bottom: 5.92%;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.card-trend-six img {
+    position: absolute;
+    width: 160px;
+    height: 168px;
+    left: 5%;
+    right: 75.35%;
+    top: 10%;
+    bottom: 58.73%;
+    background: #F3EDED;
+    border-radius: 15px;
+}
+
+.heading-text-trend {
+    position: absolute;
+    width: 152px;
+    height: 112px;
+    left: 40%;
+    right: 62.71%;
+    top: 14%;
+    bottom: 64.36%;
+}
+
+.heading-text-trend h2 {
+    position: absolute;
+    width: 77px;
+    height: 36px;
+    left: 2%;
+    right: 67.92%;
+    top: -15%;
+    bottom: 71.99%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #282832;
+}
+
+.heading-text-trend p {
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 3.74%;
+    right: 67.11%;
+    top: 29.22%;
+    bottom: 68.37%;
+}
+
+.heading-text-trend .total-trend {
+    position: absolute;
+    width: 152px;
+    height: 18px;
+    left: 3.74%;
+    right: 62.71%;
+    top: 57.84%;
+    bottom: 64.36%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+    color: #3B3E44;
+}
+
+.btn-book {
+    position: absolute;
+    width: 99px;
+    height: 33px;
+    left: 3.74%;
+    right: 66.39%;
+    top: 108%;
+    bottom: 58.63%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #316BFF;
+    border-radius: 6px
+}
+
+
+/*------------------------------------------------------Travel-your- Passion-------------------------------------*/
+
+#travel-your {
+    position: absolute;
+    width: 1170px;
+    height: 471px;
+    left: 135px;
+    top: 5000px;
+}
+
+.title-your {
+    position: absolute;
+    width: 491px;
+    height: 106px;
+    left: 0%;
+    right: 58.03%;
+    top: 0%;
+    bottom: 77.49%;
+}
+
+.title-your h1 {
+    position: absolute;
+    width: 438px;
+    height: 70px;
+    left: 0%;
+    right: 62.56%;
+    top: -37%;
+    bottom: 85.14%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: -0.005em;
+    color: #141416;
+}
+
+.title-your h3 {
+    position: absolute;
+    width: 497px;
+    height: 24px;
+    left: 0%;
+    right: 58.03%;
+    top: 64.41%;
+    bottom: 77.49%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.card-passion-one {
+    position: absolute;
+    width: 270px;
+    height: 323px;
+    left: 0;
+    top: 148px;
+}
+
+.card-passion-one img {
+    position: absolute;
+    width: 270px;
+    height: 323px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(8.54deg, rgba(31, 31, 31, 0.63) 17.12%, rgba(35, 35, 35, 0) 92.69%);
+    border-radius: 15px;
+}
+
+.card-passion-one h2 {
+    position: absolute;
+    width: 163px;
+    height: 32px;
+    top: 200px;
+    left: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.card-passion-one p {
+    position: absolute;
+    width: 140px;
+    height: 21px;
+    top: 245px;
+    left: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.card-passion-two {
+    position: absolute;
+    width: 270px;
+    height: 323px;
+    left: 300px;
+    top: 148px;
+}
+
+.card-passion-two img {
+    position: absolute;
+    width: 270px;
+    height: 323px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(8.54deg, rgba(31, 31, 31, 0.63) 17.12%, rgba(35, 35, 35, 0) 92.69%);
+    border-radius: 15px;
+}
+
+.card-passion-two h2 {
+    position: absolute;
+    width: 163px;
+    height: 32px;
+    top: 200px;
+    left: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.card-passion-two p {
+    position: absolute;
+    width: 140px;
+    height: 21px;
+    top: 245px;
+    left: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.card-passion-three {
+    position: absolute;
+    width: 270px;
+    height: 323px;
+    left: 600px;
+    top: 148px;
+}
+
+.card-passion-three img {
+    position: absolute;
+    width: 270px;
+    height: 323px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(8.54deg, rgba(31, 31, 31, 0.63) 17.12%, rgba(35, 35, 35, 0) 92.69%);
+    border-radius: 15px;
+}
+
+.card-passion-three h2 {
+    position: absolute;
+    width: 163px;
+    height: 32px;
+    top: 200px;
+    left: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.card-passion-three p {
+    position: absolute;
+    width: 140px;
+    height: 21px;
+    top: 245px;
+    left: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.card-passion-four {
+    position: absolute;
+    width: 270px;
+    height: 323px;
+    left: 900px;
+    top: 148px;
+}
+
+.card-passion-four img {
+    position: absolute;
+    width: 270px;
+    height: 323px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(8.54deg, rgba(31, 31, 31, 0.63) 17.12%, rgba(35, 35, 35, 0) 92.69%);
+    border-radius: 15px;
+}
+
+.card-passion-four h2 {
+    position: absolute;
+    width: 163px;
+    height: 32px;
+    top: 200px;
+    left: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.card-passion-four p {
+    position: absolute;
+    width: 140px;
+    height: 21px;
+    top: 245px;
+    left: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+/*-------------------------------- bottom ---------------------------*/
+
+#bottom {
+    position: absolute;
+    width: 1440px;
+    height: 727px;
+    left: 0px;
+    top: 5550px;
+}
+
+.content-bottom {
+    position: absolute;
+    width: 1440px;
+    height: 603px;
+    top: 124px;
+}
+
+.center-content {
+    position: absolute;
+    width: 1055px;
+    height: 227px;
+    top: 220px;
+    left: 190px;
+}
+
+.content-trip {
+    position: absolute;
+    width: 254px;
+    height: 192px;
+    top: 0px;
+    left: 0px;
+}
+
+.logo-trip {
+    position: absolute;
+    width: 148px;
+    height: 38px;
+    top: 0px;
+    left: 0px;
+}
+
+.logo-trip img {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo-trip p {
+    position: absolute;
+    width: 98px;
+    height: 27px;
+    top: -12px;
+    left: 45px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #222529;
+}
+
+.content-trip .title-trip {
+    position: absolute;
+    width: 254px;
+    height: 72px;
+    top: 50px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.content-trip .mode {
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    top: 153px;
+    left: 0%;
+    background: #FFFFFF;
+    border: 0.5px solid #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.mode .moon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: -7px;
+    left: 90px;
+}
+
+.mode .sun {
+    position: absolute;
+    width: 61px;
+    height: 30px;
+    top: -13px;
+    left: 0px;
+    background: #FCFCFD;
+    box-shadow: 0px 2px 2px rgba(67, 67, 67, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.sun i {
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    top: 5px;
+    left: 20px;
+}
+
+.services {
+    position: absolute;
+    width: 109px;
+    height: 227px;
+    top: 0px;
+    left: 450px;
+}
+
+.services h2 {
+    position: absolute;
+    width: 97px;
+    height: 36px;
+    top: -5%;
+    left: 0%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #222529;
+}
+
+.services .sv-one {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 40px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.services .sv-two {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 80px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.services .sv-three {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 120px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.services .sv-four {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 160px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.services .sv-five {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 200px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.support {
+    position: absolute;
+    width: 109px;
+    height: 227px;
+    top: 0px;
+    left: 700px;
+}
+
+.support h2 {
+    position: absolute;
+    width: 97px;
+    height: 36px;
+    top: -5%;
+    left: 0%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #222529;
+}
+
+.support .sv-one {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 40px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.support .sv-two {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 80px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.support .sv-three {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 120px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.support .sv-four {
+    position: absolute;
+    width: 139px;
+    height: 24px;
+    top: 160px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.support .sv-five {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 200px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.business {
+    position: absolute;
+    width: 109px;
+    height: 227px;
+    top: 0px;
+    left: 900px;
+}
+
+.business h2 {
+    position: absolute;
+    width: 97px;
+    height: 36px;
+    top: -5%;
+    left: 0%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #222529;
+}
+
+.business .sv-one {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 40px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.business .sv-two {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 80px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.business .sv-three {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 120px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.business .sv-four {
+    position: absolute;
+    width: 139px;
+    height: 24px;
+    top: 160px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.business .sv-five {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    top: 200px;
+    left: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #84878B;
+}
+
+.sub {
+    position: absolute;
+    width: 1170px;
+    height: 248px;
+    left: 135px;
+    top: 0%;
+    background: #316BFF;
+    border-radius: 16px;
+}
+
+.wrap-heading {
+    position: absolute;
+    width: 371px;
+    height: 124px;
+    top: 62px;
+    left: 80px;
+}
+
+.wrap-heading h1 {
+    position: absolute;
+    width: 352px;
+    height: 52px;
+    top: -25px;
+    left: 0px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.wrap-heading h5 {
+    position: absolute;
+    width: 370px;
+    height: 56px;
+    top: 49px;
+    left: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.88;
+}
+
+.form {
+    position: absolute;
+    width: 488px;
+    height: 71px;
+    top: 115px;
+    left: 620px;
+    background: #FCFCFD;
+    box-shadow: 10px 16px 60px -7px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+
+.form input {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    top: 24px;
+    left: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B1B5C4;
+    border: none;
+}
+
+.form button {
+    position: absolute;
+    width: 130px;
+    height: 55px;
+    top: 9px;
+    left: 345px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #353945;
+    box-shadow: 0px 12px 20px -5px rgba(23, 23, 126, 0.1);
+    border-radius: 4px;
+}
